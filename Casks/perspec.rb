@@ -1,6 +1,6 @@
 cask 'perspec' do
   version '0.1.3.0'
-  sha256 'aff4a9cc287281a898da3c326a5e6cd7a55ce7ae51982b9fba77a395d2213eef'
+  sha256 '865f3ed379210208a732eed3773f38289bb4b4f680025c9de99237f3b66c6a21'
 
   url "https://github.com/ad-si/Perspec/releases/download/v#{version}/Perspec_macOS_10-15.zip"
   appcast 'https://github.com/ad-si/Perspec/releases.atom'
