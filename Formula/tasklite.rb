@@ -5,8 +5,6 @@ class Tasklite < Formula
   version "0.3.0.0"
   sha256 "b77245e0bf438b6c38913c360cf2a72f61834d632f8c2ea2eefcb015c30e8dcb"
 
-  bottle :unneeded
-
   def install
     bin.install "tasklite"
   end
