@@ -13,17 +13,14 @@ In order to easily install my tools with Homebrew just add the tap:
 brew tap ad-si/tap
 ```
 
-After that you can install any of my available [Formulas] with:
+After that you can install any of my available [Formulas] and [Casks] with:
 
 ```sh
 brew install $NAME
 ```
 
-And any of the [Casks] with:
-
-```sh
-brew cask install $NAME
-```
+[Formulas]: https://docs.brew.sh/Formula-Cookbook
+[Casks]: https://github.com/Homebrew/homebrew-cask
 
 
 ## Apps
@@ -36,5 +33,3 @@ Name | Type | Description
 
 [TaskLite]: https://tasklite.org
 [Perspec]: https://github.com/ad-si/Perspec
-[Formulas]: https://docs.brew.sh/Formula-Cookbook
-[Casks]: https://github.com/Homebrew/homebrew-cask
