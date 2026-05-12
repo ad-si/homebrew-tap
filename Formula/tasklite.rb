@@ -1,9 +1,34 @@
 class Tasklite < Formula
-  desc "The CLI task manager for power users"
+  desc "CLI task manager for power users"
   homepage "https://tasklite.org"
-  url "https://github.com/ad-si/TaskLite/releases/download/v0.3.0.0/tasklite_macos_x86_64.zip"
-  version "0.3.0.0"
-  sha256 "b77245e0bf438b6c38913c360cf2a72f61834d632f8c2ea2eefcb015c30e8dcb"
+  version "0.5.0.0"
+
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
+  on_macos do
+    on_arm do
+      url "https://github.com/ad-si/TaskLite/releases/download/v#{version}/tasklite_macos_arm64.zip"
+      sha256 "00542e4e53f028f6301fdcc469cfa000a12e74c12077d797ac0dba718919f4be"
+    end
+    on_intel do
+      url "https://github.com/ad-si/TaskLite/releases/download/v#{version}/tasklite_macos_x86_64.zip"
+      sha256 "f394ca438e7ea619a0cf67a6eab6ec1a80013055c5dff45c89c9bed8872cd66c"
+    end
+  end
+
+  on_linux do
+    on_arm do
+      url "https://github.com/ad-si/TaskLite/releases/download/v#{version}/tasklite_linux_arm64.zip"
+      sha256 "bf7b868face5199e57615e274be15341c487e551d47558f48e449a352f971601"
+    end
+    on_intel do
+      url "https://github.com/ad-si/TaskLite/releases/download/v#{version}/tasklite_linux_x86_64.zip"
+      sha256 "cec201eb783678b4bd66718717bf599c15aa4084be5ec0f137d12230e1dbce1b"
+    end
+  end
 
   def install
     bin.install "tasklite"
