@@ -27,9 +27,11 @@ brew install $NAME
 
 Name | Type | Description
 -----|------|------------
+[LuaCAD] | Formula | Parametric CAD modeling with Lua
 [TaskLite] | Formula | CLI task manager for power users
 [Perspec] | Cask | Graphical app to correct the perspective of images
 
 
+[LuaCAD]: https://luacad.ad-si.com
 [TaskLite]: https://tasklite.org
 [Perspec]: https://github.com/ad-si/Perspec
