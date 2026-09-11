@@ -1,13 +1,13 @@
 cask "perspec" do
-  version "1.1.0.0"
+  version "1.2.0.0"
 
   on_arm do
-    sha256 "be47e4b1cc5122e002b443dcfb8b00df74ba3874fd1bc81e46875e2d73b9b6b8"
+    sha256 "2813ed72f41686a452dabe64fd090c787f6df397b41554c3548c7955e77ce552"
 
     url "https://github.com/ad-si/Perspec/releases/download/v#{version}/perspec-app_macos-14_arm64.zip"
   end
   on_intel do
-    sha256 "691b91f40f722ab80f2badc270a2705a01773f3c36e0e49f9627e4c33832f057"
+    sha256 "e06a1f0c595eed6213bf95391ed167333842c653cb5b5336f36da27d1eea02c1"
 
     url "https://github.com/ad-si/Perspec/releases/download/v#{version}/perspec-app_macos-15-intel_x86_64.zip"
   end
