@@ -10,23 +10,23 @@ class Luacad < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ad-si/LuaCAD/releases/download/v1.0.0/luacad-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "00de29d1d84c83c02682ecda1371e77d467c926261a6d9dcf9e1d8cb6d877872"
+      url "https://github.com/ad-si/LuaCAD/releases/download/v1.2.0/luacad-1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ea3b56fb8c05abf4f1cb6e0db491a4f505e2588a4d52bb43c6db1a3c7982fe06"
     end
     on_intel do
-      url "https://github.com/ad-si/LuaCAD/releases/download/v1.0.0/luacad-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b56607baac0bd5de07aa6417c0d95583a558345305108e0c22fa0491ffa56ca8"
+      url "https://github.com/ad-si/LuaCAD/releases/download/v1.2.0/luacad-1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b800da9d73380c0ce70d66016865a7d8add2bd9b8ff09dcb577840b34e5fa1c6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ad-si/LuaCAD/releases/download/v1.0.0/luacad-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a73eda852b971d87e557d346813f982136530af2466f56b1307758fd2d22b782"
+      url "https://github.com/ad-si/LuaCAD/releases/download/v1.2.0/luacad-1.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "623cb86845bbff712ccb994feae9ce72b7ebe4f62c0b02955d3f04ad9e0d65ee"
     end
     on_intel do
-      url "https://github.com/ad-si/LuaCAD/releases/download/v1.0.0/luacad-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e9e104d3483a9760d07af991edd8b96d7f2ba32c35cbb31950fc777766729439"
+      url "https://github.com/ad-si/LuaCAD/releases/download/v1.2.0/luacad-1.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "508ba5eb49694fa8c8229d929af1344a92a6ded63d76047f6a39c83a59adaba3"
     end
   end
 
